@@ -1,0 +1,29 @@
+Description
+-------------
+
+The Clipboard Media Server is a Python script that publishes a media
+stream URL on the clipboard over the D-Bus, according to the Gnome
+MediaServer2 spec.
+
+Requirements
+-------------
+
+dbus-python, pygtk
+
+Usage
+-------------
+
+Run the run.py script to start the server.
+
+Practical Use
+-------------
+
+How might one put such a simple tool to use?
+
+1. Install the Video Download Helper extension for Firefox.
+2. Install and launch the Rygel UPnP server, with the External and
+   Export plugins enabled.
+3. Find a media stream of interest on the web with Firefox.
+4. Use Video Download Helper to copy the stream URL to the clipboard.
+5. Watch the stream on your DLNA-capable TV or other device.
+

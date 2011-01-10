@@ -21,8 +21,7 @@ Practical Use
 How might one put such a simple tool to use?
 
 1. Install the Video Download Helper extension for Firefox.
-2. Install and launch the Rygel UPnP server, with the External and
-   Export plugins enabled.
+2. Install and launch the Rygel UPnP server, with the External plugin.
 3. Find a media stream of interest on the web with Firefox.
 4. Use Video Download Helper to copy the stream URL to the clipboard.
 5. Watch the stream on your DLNA-capable TV or other device.

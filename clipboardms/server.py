@@ -184,6 +184,6 @@ class ClipboardMediaItem(MediaItemMixin):
             else:
                 mime_type = MIME_TYPES['avi']
         return {
-            'MIMEType': mime_type,
+            'MIMEType': mime_type
             }
 

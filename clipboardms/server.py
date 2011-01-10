@@ -13,7 +13,8 @@ MEDIA_OBJECT_IFACE = 'org.gnome.UPnP.MediaObject2'
 MIME_TYPES = {
     '.avi': 'video/x-msvideo',
     '.mp4': 'video/mp4',
-    '.mkv': 'video/x-matroska'
+    '.mkv': 'video/x-matroska',
+    '.flv': 'video/x-flv'
     }
 
 class MediaObjectMixin(dbus.service.Object):

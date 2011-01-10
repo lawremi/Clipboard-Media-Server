@@ -139,7 +139,7 @@ class ClipboardMediaServer(MediaContainerMixin):
             if (self.last_text != uri):
                 f = gio.File(uri = uri)
                 if (f.get_uri_scheme() is not None):
-                    print 'got new uri'
+                    print 'got new uri: ' + uri
                     for item in self.items:
                         item.remove_from_connection()
                     self.items = [ ClipboardMediaItem(self, uri, 0) ]
